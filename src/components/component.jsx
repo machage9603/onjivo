@@ -1,15 +1,4 @@
-import { IBM_Plex_Sans } from 'next/font/google'
-import { Chivo } from 'next/font/google'
-
-ibm_plex_sans({
-  subsets: ['latin'],
-  display: 'swap',
-})
-
-chivo({
-  subsets: ['latin'],
-  display: 'swap',
-})
+"use client";
 
 import Link from "next/link"
 import { Label } from "@/components/ui/label"
@@ -48,7 +37,7 @@ export default function Component() {
             <section className="bg-muted p-6 rounded-md">
               <div className="space-y-4">
                 <div>
-                  <h2 className="text-2xl font-bold">Welcome to the README.md Generator</h2>
+                  <h2 className="text-2xl font-bold">Welcome to the READMEaker</h2>
                   <p className="text-muted-foreground">
                     This tool helps you create a professional and polished README file for your project. Simply fill out
                     the form below, and we&apos;ll generate the content for you.
@@ -56,17 +45,7 @@ export default function Component() {
                 </div>
               </div>
             </section>
-            <section className="bg-muted p-6 rounded-md">
-              <div className="space-y-4">
-                <div>
-                  <h2 className="text-2xl font-bold">About</h2>
-                  <p className="text-muted-foreground">
-                    Welcome to our README.md Generator, READMEaker! This tool helps you create a professional and polished README
-                    file for your project. Simply fill out the form below, and we&apos;ll generate the content for you.
-                  </p>
-                </div>
-              </div>
-            </section>
+
             <form className="space-y-6">
               <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6">
                 <div className="grid gap-1.5">
